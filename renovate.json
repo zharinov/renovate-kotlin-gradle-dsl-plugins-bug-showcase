@@ -7,7 +7,7 @@
     {
       "packagePatterns": ["*"],
       "managers": ["gradle", "gradle-wrapper"],
-      "groupName": "Gradle packages",
+      "groupName": "Gradle packages"
     }
   ]
 }
