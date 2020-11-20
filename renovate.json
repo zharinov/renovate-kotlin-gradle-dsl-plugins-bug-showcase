@@ -5,9 +5,9 @@
   
   "packageRules": [
     {
-      packagePatterns: ["*"],
-      managers: ["gradle", "gradle-wrapper"],
-      groupName: "Gradle packages",
+      "packagePatterns": ["*"],
+      "managers": ["gradle", "gradle-wrapper"],
+      "groupName": "Gradle packages",
     }
   ]
 }
