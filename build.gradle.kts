@@ -14,5 +14,5 @@ plugins {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation("ch.qos.logback:logback-classic:1.2.3")
-    implementation("org.junit.jupiter:junit-jupiter:5.6.0")
+    implementation("org.junit.jupiter:junit-jupiter:5.7.0")
 }
