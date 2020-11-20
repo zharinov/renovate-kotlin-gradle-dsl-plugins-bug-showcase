@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "config:base"
+  ]
+  
+  "packageRules": [
+    {
+      "packagePatterns": ["*"],
+      "managers": ["gradle", "gradle-wrapper"],
+      "groupName": "Gradle packages",
+    }
+  ]
+}
