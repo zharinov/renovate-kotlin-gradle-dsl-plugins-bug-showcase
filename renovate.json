@@ -6,7 +6,7 @@
   "packageRules": [
     {
       "packagePatterns": ["*"],
-      "managers": ["gradle", "gradle-wrapper"],
+      "managers": ["gradle-lite", "gradle-wrapper"],
       "groupName": "Gradle packages"
     }
   ]
