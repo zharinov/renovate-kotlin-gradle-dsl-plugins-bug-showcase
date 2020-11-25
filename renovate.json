@@ -1,3 +1,10 @@
 {
-  "enabledManagers": ["gradle-lite", "gradle-wrapper"]
+  "enabledManagers": ["gradle-lite", "gradle-wrapper"],
+  "packageRules": [
+    {
+      "packagePatterns": ["*"],
+      "managers": ["gradle", "gradle-wrapper"],
+      "groupName": "Gradle packages"
+    }
+  ]
 }
