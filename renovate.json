@@ -1,13 +1,3 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  
-  "packageRules": [
-    {
-      "packagePatterns": ["*"],
-      "managers": ["gradle-lite", "gradle-wrapper"],
-      "groupName": "Gradle packages"
-    }
-  ]
+  "enabledManagers": ["gradle-lite", "gradle-wrapper"]
 }
